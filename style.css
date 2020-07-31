@@ -1,0 +1,290 @@
+/* CSS Document */
+body{
+	margin: 0;
+	padding: 0;
+	background: black;
+}
+@font-face{
+	src:url(font/BebasNeue-Regular.otf);
+	font-family: regular;
+}
+.outer{
+	width: 1800px;
+	height: 3120px;
+	background: grey;
+	margin: 0 auto;
+}
+
+/*first look*/
+
+.firstlook{
+	width: 1800px;
+	height: 990px;
+	background: black;
+}
+.header{
+	width: 1800px;
+	height: 100px;
+	background: black;
+	
+}
+.logo{
+	width: 500px;
+	height: 90px;
+	float: left;
+	background: black;
+	margin-top: 20px;
+}
+.header img{
+	height: 20px;
+	margin: 40px;
+	margin-left: 100px;
+}
+.menu{
+	width: 800px;
+	height: 90px;
+	float: right;
+	margin-top: 20px;
+	font-family: regular;
+}
+.menu ul{
+	list-style: none;
+}
+.menu ul li a{
+	text-decoration: none;
+	float: left;
+	color: white;
+	margin-left: 90px;
+	margin-top: 20px;
+	font-size: 20px;
+}
+.menu ul li:hover a{
+	text-decoration: underline;
+	font-size: 22px;
+	transition-delay: 0.09s;
+}
+.pic{
+	width: 1000px;
+	height: 600px;
+	float: right;
+	background: black;
+}
+.pic img{
+	height: 880px;
+	float: right;
+}
+.text{
+	width: 1000px;
+	height: 600px;
+	color: white;
+	margin-left: 150px;
+	font-family: regular;
+}
+.text h1{
+	font-size: 110px;
+	margin-top: 190px;
+	height: 100px;
+	font-family: regular;
+	font-weight: 100;
+	background: -webkit-linear-gradient(70deg, yellow, red  50% );
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+} 
+.text h2{
+	font-size: 40px;
+	margin-top: -60px;
+	font-weight: 100;
+}
+.text h3{
+	font-size: 60px;
+	margin-top: -35px;
+	font-weight: 100;
+}
+.text h4{
+    font-size: 18px;
+	font-family: 'Arial';
+	font-weight: 100;
+	margin-top: -25px;
+}
+.text a img{
+	height: 30px;
+	margin-top: 30px;
+}
+.text a:hover img{
+	height: 33px;
+}
+
+/*about*/
+
+.about{
+	width: 1800px;
+	height: 990px;
+	background: white;
+}
+.pic1{
+	height: 350px;
+	margin-left: -300px;
+	margin-top: 200px;
+}
+.pic2{
+	height: 700px;
+	float: left;
+	margin: 150px;
+}
+.about h1{
+	width: 1000px;
+	float: right;
+	font-size: 80px;
+	font-family: regular;
+	margin-top: 330px;
+	margin-right: -200px;
+	font-weight: 100;
+}
+.about h2{
+	float: right;
+	font-size: 18px;
+	font-family: 'ARIAL';
+	font-weight: 100;
+	margin-top: 430px;
+	margin-right: -175px;
+}
+.about h3{
+	float: right;
+	font-size: 18px;
+	font-family: 'ARIAL';
+	font-weight: 100;
+	margin-top: 460px;
+	margin-right: -398px;
+}
+.box{
+	width: 100px;
+	height: 40px;
+	border: 4px solid black;
+	float: right;
+	margin-top: -30px;
+	margin-right: 690px;
+}
+.box:hover{
+	width: 103px;
+	height: 43px;
+	font-size: 28px;
+}
+.about a{
+	text-decoration: none;
+	color: black;
+	font-family: regular;
+	font-size: 25px;
+	text-align: center;
+	line-height: 40px;
+}
+
+/*work*/
+
+.work{
+	width: 1800px;
+	height: 990px;
+	background: white;
+	float: left;
+	margin-top: -10px;
+}
+.pic3{
+	height: 440px;
+	float: right;
+	margin-right: 20px;
+	margin-top: 190px;
+}
+.work a img:hover{
+	box-shadow: 4px 4px 8px grey;
+}
+.pic4{
+	height: 320px;
+	float: right;
+	margin-right: 370px;
+	margin-top: 10px;
+}
+.pic5{
+	height:280px;
+	float: right;
+	margin-top: 350px;
+	margin-right: -420px;
+}
+.pic6{
+	height: 230px;
+	float: right;
+	margin-top: 650px;
+	margin-right: -400px;
+}
+.work h1{
+	width: 400px;
+	float: left;
+	font-size: 80px;
+	font-family: regular;
+	margin-top: 330px;
+	margin-left: 200px;
+	font-weight: 100;
+}
+.work p{
+	float: left;
+	font-size: 18px;
+	font-family: 'ARIAL';
+	font-weight: 100;
+	margin-top: 430px;
+	margin-left: -398px;
+}
+.box2{
+	width: 100px;
+	height: 40px;
+	border: 4px solid black;
+}
+.box2:hover{
+	width: 103px;
+	height: 43px;
+	font-size: 28px;
+}
+.work a p{
+	text-decoration: none;
+	color: black;
+	font-size: 25px;
+	text-align: center;
+	line-height: 44px;
+	font-family: regular;
+	margin-top: 500px;
+	margin-left: -415px
+}
+
+/*contact*/
+
+.contact{
+	width: 1800px;
+	height: 150px;
+	background: black;
+	float: left;
+}
+.fb{
+	height: 40px;
+	float: left;
+	margin-top: 40px;
+	margin-left: 800px
+}
+.fb:hover{
+	height: 42px;
+}
+.ig{
+	height: 40px;
+	float: left;
+	margin-top: 40px;
+	margin-left: 70px;
+	margin-right: 50px;
+}
+.ig:hover{
+	height: 42px;
+}
+.be{
+	height: 35px;
+	float: left;
+	margin-top: 42px;
+	margin-right: 100px;
+}
+.be:hover{
+	height: 37px;
+}
