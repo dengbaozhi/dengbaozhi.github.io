@@ -1,0 +1,400 @@
+*{margin: 0; padding: 0}
+@font-face{
+	src:url("../font/MyriadPro-Light.otf");
+	font-family:Myriad Pro ;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+
+body{
+	background:#08060B;
+
+}
+
+.container{
+	width: 1280px;
+	height: 3250px;
+	margin: 0 auto;
+	scroll-behavior: smooth;
+	overflow: visible;
+	
+}
+
+.layout1{
+	width: 1280px;
+	height: 670px;
+	background-image: url(../images/images/slider.png);
+	margin: 0 auto;
+}
+
+.topbar{
+	width: 1280px;
+	height: 70px;
+	position: fixed;
+    top: 0;
+	background:#080809;
+	opacity: 0.5;
+	flow-from: inherit
+}
+
+.topbar:hover{
+	opacity: 1;
+}
+
+.logo{
+	width: 30%;
+	height: 100px;
+	float: left;
+	margin-left: 100px;
+}
+
+.logo img{
+	margin: 40px;
+	height: 15px;
+}
+.logo:hover img{
+	transform: scale(1.1);
+	transition: all 0.3s ease;
+}
+
+.menu{
+	width: 400PX;;
+	height: 90px;
+	float: right;
+	line-height: 65px;
+	font-size: 12px;
+	font-family: Myriad Pro;
+	margin-right: -50px;
+	text-align: center;
+}
+
+.menu ul{
+	list-style: none;	
+}
+
+.menu ul li {
+	width: 80px;
+	height: 30px;
+	float: left;
+	color: white;
+	position: relative;	
+	margin-top: 15px;
+}
+
+.menu ul li a{
+	color: white;
+	text-decoration: none;
+}
+.menu ul li:hover {
+	transition: all 0.3s ease;
+	text-decoration: underline;
+	font-size: 15px;
+}
+
+.text{
+	width: 330px;
+	height: 190px;
+	color: white;
+	animation: fade-in 1.5s ease, slide-in 1.2s ease;
+  -webkit-animation: fade-in 1.5s ease, slide-in 1.2s ease;
+}
+.text #thisis{
+	font-size: 30px;
+	font-family: Myriad Pro;
+	font-style: italic;
+	margin-left: 200px;
+	margin-top: 50px;
+	float: left;
+}
+	
+.text h1{
+	height: 100px;
+	width: 200px;
+	font-size: 120px;
+	font-family: impact;
+	color: #ED5B2E;
+	margin-left: 200px;
+	margin-top: -10px;
+	float: left;
+}
+#being{
+	font-size: 30px;
+	font-family: Myriad Pro;
+	font-style: italic;
+	margin-left: 320px;
+	margin-top:30px;
+	float: left;
+}
+
+#line{
+	width: 100px;
+	margin-top: 150px;
+	margin-left: -190px;
+	float: left;
+}
+#creative{
+	font-size: 30px;
+	font-family: Myriad Pro;
+	font-style: italic;
+	margin-left: 395px;
+	margin-top: -38px;
+	float: left;
+	color: #ED5B2E;
+	animation: fade-in 1.5s ease, slide-in 1.2s ease;
+  -webkit-animation: fade-in 1.5s ease, slide-in 1.2s ease;
+}
+
+.layout1:hover .text{
+	
+}
+
+
+
+
+.skill{
+	width: 1280px;
+	height: 350px;
+	background-color: white;
+	margin-top: -30px;
+	font-size: 14px;
+}
+
+.outer{
+	width: 1000px;
+	height: 135px;
+	margin: 0 auto;
+	margin-top: 30px;
+	
+}
+
+.circle{
+	float: left;
+	align-items: center;
+	margin-left: 130px;
+	margin-top: 130px;
+	animation: slideIn 1.3s ;
+}
+
+.circle:hover {
+	transform: scale(1.1);
+	transition: all 0.2s ease;
+}
+
+.outertext{
+	width: 1000px;
+	height: 50px;
+}
+
+.outer .outertext ul{
+	list-style: none;
+	float: left;
+	animation: slideIn 1.3s ease-in-out forwards;
+}
+
+
+.outer .outertext ul li{ 
+	float: left;
+	margin-top: 17px;
+}
+
+.outer .outertext ul li a{
+	color: #080809;
+	text-decoration: none;
+	font-family:Myriad Pro;
+	margin-left: 135px;
+}
+
+#pts{
+	margin-left: 150px;
+}
+
+#ptr{
+	margin-left: 148px;
+}
+
+#uiux{
+	margin-left: 167px;
+}
+
+.outer ul li:hover{
+	text-decoration: underline;
+}
+
+
+
+
+
+
+.profile{
+	width: 1280px;
+	height: 920px;
+	background-color: #080809;
+	margin-top: -65px;
+	
+}
+
+.myprofile{
+	width: 100%;
+	height: 150px;
+	animation: slideIn 1.5s ease-in-out forwards;
+}
+
+.myprofile img{
+	margin-top: 66px;
+	margin-left: 195px;
+	animation: slideIn 1.5s ease-in-out forwards;
+}
+
+.myprofile:hover img{
+	transform: scale(1.1);
+	transition: all 0.2s ease;
+}
+
+.big_outer{
+	width: 945px;
+	height: 700px;
+	margin: 0 auto;
+	font-family: Myriad Pro;
+
+}
+
+.outer1{
+	width: 945px;
+	height: 200px;
+}
+
+.outer2{
+	width: 945px;
+	height: 200px;
+	margin-top: 28px;
+}
+
+
+.outer3{
+	width: 945px;
+	height: 200px;
+	margin-top: 28px;
+}
+
+.img_pf{
+	float: left;
+	margin-left: 28px;
+	animation: slideIn 1.2s;
+}
+
+.img_pf:hover{
+	transform: scale(2);
+	transition: all 0.2s ease;
+}
+
+.overlay {
+  position: absolute; 
+  bottom: 4px; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 71%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 15px;
+  padding: 15px;
+  text-align: center;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+
+.footer{
+	width: 1280px;
+	height: 210px;
+	background-color: #080809;
+}
+
+.footerbar{
+	width: 1280px;
+	height: 110px;
+}
+
+.logo_footer{
+	width: 200px;
+	height: 50px;
+	margin-left: 100px;
+	margin: 0 auto;
+}
+
+.logo_footer img{
+	margin: 0 auto;
+	height: 15px;
+}
+.logo_footer:hover img{
+	transform: scale(1.1);
+	transition: all 0.3s ease;
+}
+
+.menu_footer{
+	width: 500PX;;
+	height: 40px;
+	float: left;
+	line-height: 65px;
+	font-size: 14px;
+	font-family: Myriad Pro;
+	text-align: center;
+	margin-left: 460px;
+}
+
+.menu_footer ul{
+	list-style: none;
+	
+}
+
+.menu_footer ul li {
+	width: 80px;
+	height: 30px;
+	float: left;
+	color: white;
+}
+
+.menu_footer ul li a{
+	color: white;
+	text-decoration: none;
+	
+}
+.menu_footer ul li:hover {
+	transition: all 0.2s ease;
+	text-decoration: underline;
+	font-size: 18px;
+}
+
+.footer_content{
+	width: 100%;
+	height: 100px;
+}
+
+
+.contact_me{
+	width: 50px;
+	height: 50px;
+	float: left;
+	margin-left: 34px;
+	margin-top: 30px;
+
+}
+
+.contact_me img{
+	height: 100%;
+	float: left;
+	margin-left: 400px;
+}
+
+.contact_me img:hover{
+	transform: scale(1.2);
+	transition: all 0.4s ease;
+}
+
+
+
